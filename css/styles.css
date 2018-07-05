@@ -1,0 +1,54 @@
+body {
+  background: #333333;
+  color: #f9f9f9;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+
+#sl-logo {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 99;
+}
+
+#bridge-logo {
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  z-index: 99;
+}
+#bridge-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#read-episodes {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 99;
+}
+#read-episodes img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sy-slides-crop, .sy-slides-wrap, .sy-list, .sy-slide {
+  height: 100vh;
+}
+.sy-slide > img {
+  height: auto;
+}
